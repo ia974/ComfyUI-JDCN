@@ -21,10 +21,12 @@
 from .classes.JDCN_AnyFileList import N_CLASS_MAPPINGS as AnyListMappings, N_DISPLAY_NAME_MAPPINGS as AnyListNameNMappings
 from .classes.JDCN_AnyFileListHelper import N_CLASS_MAPPINGS as AnyListHelperMappings, N_DISPLAY_NAME_MAPPINGS as AnyListHelperNameNMappings
 from .classes.JDCN_AnyFileSelector import N_CLASS_MAPPINGS as AnyFileSelectorMappings, N_DISPLAY_NAME_MAPPINGS as AnyFileSelectorNameMappings
+from .classes.JDCN_IndexesListSelector import N_CLASS_MAPPINGS as IndexesListSelectorMappings, N_DISPLAY_NAME_MAPPINGS as IndexesListSelectorNameMappings
 from .classes.JDCN_AnyFileListRandom import N_CLASS_MAPPINGS as AnyFileListRandomMappings, N_DISPLAY_NAME_MAPPINGS as AnyFileListRandomNameMappings
 from .classes.JDCN_ListToString import N_CLASS_MAPPINGS as ListToStringMappings, N_DISPLAY_NAME_MAPPINGS as ListToStringNameMappings
 from .classes.JDCN_StringToList import N_CLASS_MAPPINGS as StringToListMappings, N_DISPLAY_NAME_MAPPINGS as StringToListNameMappings
 from .classes.JDCN_FileMover import N_CLASS_MAPPINGS as FileMoverMappings, N_DISPLAY_NAME_MAPPINGS as FileMoverNameMappings
+from .classes.JDCN_FileCopier import N_CLASS_MAPPINGS as FileCopierMappings, N_DISPLAY_NAME_MAPPINGS as FileCopierNameMappings
 from .classes.JDCN_SplitString import N_CLASS_MAPPINGS as SplitStringMappings, N_DISPLAY_NAME_MAPPINGS as SplitStringNameMappings
 from .classes.JDCN_BatchImageLoadFromList import N_CLASS_MAPPINGS as BatchImageLoadFromListMappings, N_DISPLAY_NAME_MAPPINGS as BatchImageLoadFromListNameMappings
 from .classes.JDCN_BatchLatentLoadFromList import N_CLASS_MAPPINGS as BatchLatentLoadFromListMappings, N_DISPLAY_NAME_MAPPINGS as BatchLatentLoadFromListNameMappings
@@ -51,6 +53,7 @@ NODE_CLASS_MAPPINGS = {}
 NODE_CLASS_MAPPINGS.update(AnyListMappings)
 NODE_CLASS_MAPPINGS.update(AnyListHelperMappings)
 NODE_CLASS_MAPPINGS.update(AnyFileSelectorMappings)
+NODE_CLASS_MAPPINGS.update(IndexesListSelectorMappings)
 NODE_CLASS_MAPPINGS.update(AnyFileListRandomMappings)
 NODE_CLASS_MAPPINGS.update(AnyCheckpointLoaderMappings)
 NODE_CLASS_MAPPINGS.update(BatchImageLoadFromListMappings)
@@ -59,6 +62,7 @@ NODE_CLASS_MAPPINGS.update(BatchLatentLoadFromDirMappings)
 NODE_CLASS_MAPPINGS.update(BatchImageLoadFromDirMappings)
 NODE_CLASS_MAPPINGS.update(BatchSaveLatentMappings)
 NODE_CLASS_MAPPINGS.update(FileMoverMappings)
+NODE_CLASS_MAPPINGS.update(FileCopierMappings)
 NODE_CLASS_MAPPINGS.update(ImageSaverMappings)
 NODE_CLASS_MAPPINGS.update(ListToStringMappings)
 NODE_CLASS_MAPPINGS.update(ReBatchMappings)
@@ -83,6 +87,7 @@ NODE_DISPLAY_NAME_MAPPINGS = {}
 NODE_DISPLAY_NAME_MAPPINGS.update(AnyListNameNMappings)
 NODE_DISPLAY_NAME_MAPPINGS.update(AnyListHelperNameNMappings)
 NODE_DISPLAY_NAME_MAPPINGS.update(AnyFileSelectorNameMappings)
+NODE_DISPLAY_NAME_MAPPINGS.update(IndexesListSelectorNameMappings)
 NODE_DISPLAY_NAME_MAPPINGS.update(AnyFileListRandomNameMappings)
 NODE_DISPLAY_NAME_MAPPINGS.update(AnyCheckpointLoaderNameMappings)
 NODE_DISPLAY_NAME_MAPPINGS.update(BatchImageLoadFromListNameMappings)
@@ -91,6 +96,7 @@ NODE_DISPLAY_NAME_MAPPINGS.update(BatchLatentLoadFromDirNameMappings)
 NODE_DISPLAY_NAME_MAPPINGS.update(BatchImageLoadFromDirNameMappings)
 NODE_DISPLAY_NAME_MAPPINGS.update(BatchSaveLatentNameMappings)
 NODE_DISPLAY_NAME_MAPPINGS.update(FileMoverNameMappings)
+NODE_DISPLAY_NAME_MAPPINGS.update(FileCopierNameMappings)
 NODE_DISPLAY_NAME_MAPPINGS.update(ImageSaverNameMappings)
 NODE_DISPLAY_NAME_MAPPINGS.update(ListToStringNameMappings)
 NODE_DISPLAY_NAME_MAPPINGS.update(ReBatchNameMappings)
